@@ -1,0 +1,52 @@
+.button1{
+  width: 300px;
+  height: 50px;
+  border-radius: 0% !important;
+  border: 0px !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+.form{
+  width: 600px;
+}
+ 
+.button2{
+  width: 600px;
+  background-color: mediumspringgreen !important;
+}
+
+.name{
+  width: 290px !important;
+}
+
+.styleForm{
+  background-color: lightblue;
+}
+
+.height{
+  height:50px;
+}
+
+.c-icon{
+  font-size: 22px !important;
+  background-color: #fff !important;
+  border: none !important;
+  position: relative;
+  right: 550px;
+  top: -48px;
+  color: #000 !important;
+}
+
+.valid{
+  position: relative;
+  top: -48px;
+}
+
+.error {
+  color: #dc2f55;
+  font-size: 18px;
+  padding-left: 10px;
+  margin: 4px 0 6px 0;
+  direction: ltr;
+}
