@@ -32,7 +32,7 @@ function Login() {
         },
         validate:validator,
         onSubmit: values => {
-            alert(JSON.stringify(values, null, 2));
+            alert("وارد شدید");
             axios.get("http://localhost:3001/posts",values).then((res) => {
                 res.data.map((data) => {
                     if (data.email === values.email && data.password === values.password) {

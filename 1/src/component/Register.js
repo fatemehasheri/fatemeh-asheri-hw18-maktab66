@@ -69,7 +69,7 @@ const Register= () => {
             validate={validator}
             onSubmit={(values, { setSubmitting }) => {
                 setTimeout(() => {
-                alert(JSON.stringify(values, null, 2));
+                alert("ثبت نام انجام شد");
                 setSubmitting(false);
                 }, 400);
                 axios.post("http://localhost:3001/posts",values)
