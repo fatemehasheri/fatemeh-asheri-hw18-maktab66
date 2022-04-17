@@ -5,7 +5,7 @@ import React ,{useState}  from 'react';
 export const UserProvider = ({ children }) => {
     const [LoggedInUsers, setLoggedInUsers] = useState([]);
     const [isSignin, setIsSignin] = useState(false);
-    
+
     return (
         <ContextUser.Provider value={{ LoggedInUsers, setLoggedInUsers ,isSignin,setIsSignin}}>
             {children}

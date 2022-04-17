@@ -2,10 +2,10 @@ import React from "react";
 import WithContext from "./whithContext";
 import './App.css'
 
-function App() {
+function App({name}) {
     return (
       <div className="App">
-        <h1>hello mahyar</h1>
+        <h1>hello {name}</h1>
         <button>logout</button>
       </div>
     )

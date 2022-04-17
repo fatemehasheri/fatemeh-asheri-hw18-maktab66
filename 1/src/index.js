@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './component/App';
 import "bootstrap/dist/css/bootstrap.min.css";
+import {UserProvider} from "./component/ContextUser"
 
 ReactDOM.render(
   <React.StrictMode>
+    <UserProvider>
     <App />
+    </UserProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

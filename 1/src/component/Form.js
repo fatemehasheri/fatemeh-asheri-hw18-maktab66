@@ -4,6 +4,7 @@ import React ,{useState } from 'react';
 import Login from './Login';
 import Register from './Register';
 
+
 function Form() {
   const [isShow, setIsShow] = useState(true);
   let [theme1, setTheme1] = useState("dimgray");
@@ -47,6 +48,7 @@ function Form() {
             </Col>
           </Row>
         </Container>
+        
     </div>
   );
 }
