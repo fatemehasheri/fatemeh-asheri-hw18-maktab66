@@ -32,10 +32,10 @@ function Login() {
         },
         validate:validator,
         onSubmit: values => {
-            alert("وارد شدید");
             axios.get("http://localhost:3001/posts",values).then((res) => {
                 res.data.map((data) => {
                     if (data.email === values.email && data.password === values.password) {
+                        alert("وارد شدید")
                         console.log(data);
                         setLoggedInUsers((preveState) => [...preveState, data]);
                         setIsSignin(true);
